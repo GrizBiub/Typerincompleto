@@ -1,0 +1,67 @@
+
+:root
+{
+    --BGColor: #333f;
+    --TextPrimary: #fff;
+    --TextSecondary: #666;
+    --PrimaryColor: #fd4;
+}
+
+
+
+body
+{
+    font-family: "Roboto", sans-serif;
+    background-color:var(--BGColor);
+    color:var(--TextPrimary);
+    font-size: 1.3rem;
+}
+main
+{
+    width: 600px;
+    margin: 50px auto;
+
+}
+
+
+h1
+{
+    color:var(--PrimaryColor)
+}
+
+h1 svg
+{
+    width: 35px;
+    fill:var(--PrimaryColor);
+}
+
+
+#header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#buttons
+{
+    text-align: right;
+    
+}
+
+
+#info
+{
+    color: var(--PrimaryColor);
+}
+
+
+button
+{
+    background: rgba(255,255,255,.2);
+    border: 0px;
+    color: rgba(255,255,255,.5);
+    padding: 3.5px 9.7px;
+    border-radius: 25.2px;
+    cursor: pointer;
+}   
